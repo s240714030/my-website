@@ -1,0 +1,83 @@
+/*背景白、文字黒*/
+body {
+    background: #f0fff0;
+    color:      #000000;
+}
+
+#page {
+    margin:     0 auto;
+    width:      900px;
+}
+
+#main {
+    float:      left;
+    width:      900px;
+}
+
+footer {
+    clear: both;
+}
+
+img {
+    width:        100%;
+    height:       300px;
+    object-fit:   cover;
+}
+/*自分の名前*/
+h2 {
+    border-width:   0px 0px 3px 6px;
+    border-style:   solid;
+    border-color: #0000cd;
+    padding-left:   16px
+}
+/*自己紹介の項目*/
+h3 {
+    border-width:   3px 3px 3px 3px;
+    border-style:   solid;
+    border-color: #000000;
+    padding-left:   16px
+}
+/*自己紹介欄*/
+section {
+    background: #ffffff;
+}
+/*自己紹介の内容*/
+section p {
+    font-size: 18px;
+}
+
+section #okini a {
+    text-decoration:  underline;
+    color: #0000ff;
+}
+
+section #okini a:hover {
+    color:    #ff00ff;
+}
+
+nav li {
+    display:  block;
+    width: 80px;
+    float: left;
+}
+
+nav a {
+    color:         #fff;
+    background:      url(gray1.png) repeat-x bottom;
+    font-weight:     bold;
+    display:         block;
+    line-height:     1.0;
+    padding:         6px 0;
+    border-left:     1px solid #fff;
+    text-align:      center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background:       url(blue1.png) repeat-x bottom;
+}
+
+nav #current a {
+    color:            #55c;
+    background:         #fff;
+}
