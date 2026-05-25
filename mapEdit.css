@@ -1,0 +1,16 @@
+body {
+    background: #f0fff0;
+}
+
+img {
+    margin:           -2px;
+    padding:          0;
+    vertical-align:   bottom;
+}
+
+h3 {
+    border-width:   3px 3px 3px 3px;
+    border-style:   solid;
+    border-color: #000000;
+    padding-left:   16px
+}

@@ -23,6 +23,13 @@ img {
     height:       300px;
     object-fit:   cover;
 }
+/*ゲームルール説明欄*/
+h1 {
+    border-width:   0px 0px 3px 6px;
+    border-style:   solid;
+    border-color:   #000;
+    font-size:      16px;    
+}
 /*自分の名前*/
 h2 {
     border-width:   0px 0px 3px 6px;
@@ -46,12 +53,12 @@ section p {
     font-size: 18px;
 }
 
-section #okini a {
+section #url a {
     text-decoration:  underline;
     color: #0000ff;
 }
 
-section #okini a:hover {
+section #url a:hover {
     color:    #ff00ff;
 }
 
@@ -80,4 +87,9 @@ nav a:hover {
 nav #current a {
     color:            #55c;
     background:         #fff;
+}
+
+img #kuji {
+    width:            60px;
+    height:           120px; 
 }
