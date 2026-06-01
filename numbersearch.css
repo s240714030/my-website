@@ -1,0 +1,37 @@
+body {
+    background: #f0fff0;
+    color:      #000000;
+}
+
+#page {
+    border-width:   3px 3px 3px 3px;
+    border-style:   solid;
+    border-color: #0000cd;
+    padding-left:   16px;
+    margin:     0 auto;
+    width:      800px;
+    height:     550px;
+}
+
+#questions span{
+    width:      50%;
+    display:    block;
+}
+
+#answer{
+    float:           right;
+    padding-right:   16px 
+}
+
+#results {
+    border-width:   3px 3px 3px 3px;
+    border-style:   solid;
+    border-color: #000000;
+    padding-right:   16px;
+    float:          right;  
+}
+
+h3 {
+    margin:        0px;
+    padding:       0px;
+}
