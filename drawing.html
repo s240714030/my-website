@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+                               user-scalable=no">
+<meta name="appke-mobile-web-app-capable" content="yes">
+<title>
+タッチした場所への描画
+</title>
+</head>
+  <body onload="init()">
+    <canvas id="canvas" width="400" height="480"></canvas>
+    <script src="drawing1.js" type="text/javascript">
+    </script>
+    <button id="color" onclick="colorChoice()">ペンの色：緑</button>
+    <button id="thickness" onclick="thickness()">ペンの太さ：細</button>
+    <button id="eraser" onclick="eraser()">消しゴム：OFF</button>
+    <button onclick="reset()">リセット</button>
+    </body>
+</html>  
