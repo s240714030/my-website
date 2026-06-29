@@ -3,3 +3,7 @@
     height: 600px;
     touch-action: none;
 }
+
+body {
+    overflow-y: hidden;
+}
