@@ -5,5 +5,10 @@
 }
 
 body {
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
+    font-size:  250px;
+}
+
+#result {
+    text-align:   right;
 }
