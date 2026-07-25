@@ -265,7 +265,7 @@ function tick() {
         }
     }
         
-    hscore = localStorage.getItem("hscore4030");
+    hscore = 0 + localStorage.getItem("hscore4030");
     if(hscore < score) {
         hscore = score;
         localStorage.setItem("hscore4030", hscore);
